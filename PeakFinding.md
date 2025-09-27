@@ -28,7 +28,7 @@ Finally, exponential function will grow very fast and its is for this reason the
 ## Correct answer with reasons:
  $f_1(n), f_2(n), f_4(n), f_3(n)$
 
-The first function $f_1(n) = $n^0.9999log_n$ can be evaluated to $O(n)log_n) complexities.
+The first function $f_1(n) = $n^0.9999log_n$ can be evaluated to $O(n)log_n)$ complexities.
 
 The second function $f_2(n) = 1000000n$ is a linear complexity thus given as $O(n)$ complexities.
 
