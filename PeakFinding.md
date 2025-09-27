@@ -2,7 +2,7 @@
 
 1. Sort the functions in increasing order of asymptotic (big-O) complexity
 
-$f\_1(n)$ = $n^0.99999 log\_n$
+$f\_1(n)$ = $n^{0.99999} log\_n$
 
 $f\_2(n)$ = 10000000n
 
@@ -14,7 +14,7 @@ $f\_4(n)$ = $n^2$
 
 **Solution**:
 
-\\rightarrow We will solve this problem by identifying the asymptotic growth (big-O). We should also know that logarithmic functions grows slower as compared to linear function so in that case $f\_1(n)$ grows slowest.
+$\rightarrow$ We will solve this problem by identifying the asymptotic growth (big-O). We should also know that logarithmic functions grows slower as compared to linear function so in that case $f\_1(n)$ grows slowest.
 
 **Note** In the worse case we have $\theta(n)$ complexities. This implies that all integers are the same. The growth rate remains the same since we have the same number/length of n items to be looked into.
 
