@@ -1,0 +1,4 @@
+# Peak Finding tests
+1. Sort the functions in increasing order of asymptotic (big-O) complexity
+
+$f_1$ = $n^0.99999 log_n$
