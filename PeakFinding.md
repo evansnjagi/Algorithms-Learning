@@ -28,13 +28,13 @@ Finally, exponential function will grow very fast and its is for this reason the
 ## Correct answer with reasons:
  $f_1(n), f_2(n), f_4(n), f_3(n)$
 
-The first function $f_1(n) = $n^0.9999log_n$ can be evaluated to $O(n)log_n)$ complexities.
+The first function $f_1(n) = $n^{0.9999}log_n$ can be evaluated to $O(n)log_n)$ complexities.
 
 The second function $f_2(n) = 1000000n$ is a linear complexity thus given as $O(n)$ complexities.
 
 The third function $f_3(n) = 1.000001^n$ has a higher complexity and grows much faster compared to even the exponential complexity. This is a quadratic complexity as: $O(n^3)$ 
 
-Finally, the function $f_4(n) = n^2$ has an exponential of complexity given as: $O(n^2)
+Finally, the function $f_4(n) = n^2$ has an exponential of complexity given as: $O(n^2)$
 
 
 2. 
