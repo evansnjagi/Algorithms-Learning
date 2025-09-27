@@ -37,7 +37,28 @@ The third function $f_3(n) = 1.000001^n$ has a higher complexity and grows much 
 Finally, the function $f_4(n) = n^2$ has an exponential of complexity given as: $O(n^2)$
 
 
-2. 
+2. Group two of functions:
+
+$f_1(n)$ = $2^{2^{10000}}$
+$f_2(n)$ = $2^10000n$
+$f_3(n)$ = $\binom{n}{2}$
+$f_4(n)$ = $n\sqrt{n}$
+
+My solution:
+
+The first function will have a single resultant solution and hence, it's a $O(1)$.
+
+In the second function, we will apply some little mathematical concepts whereby $2^{10000n}$ = $1000nlog_2 2$. This has a very low growth rate compared to other functions but slightly higher that the one with a single solution.
+
+In the third function, we have two combination and therefore for a worst case scenario the complexity time will be $O(2)$ 
+
+Finally, for the final function with the square root. The square root will make the function grow slower and slower but much faster compared to the second function. There reason is because the second function is growing slower 5000 times that of the fourth function.
+
+**Answer** $f_1(n)$, $f_3(n)$, $f_2(n)$, $f_4(n)$ 
+
+**Correct answer with reasons**:
+ 
+
 
 
 
